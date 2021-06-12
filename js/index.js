@@ -36,7 +36,7 @@ $('.fs-1').load('./components/menu.html');
 
 $('.fs-3').load('./components/user.html');
 
-$('.seckill-list').load('./components/seckill-list.html', function () {
+$('.seckill-list').load('./components/seckillList.html', function () {
     $(this).swiper({
         contentList: $(this).find('.slider_wrapper'),
         autoChangeTime: 4000,
